@@ -1,0 +1,591 @@
+.progress-badges {
+    transition: 0.2s all ease-in-out;
+}
+    .progress-badges:hover{
+        scale:1.1;
+    }
+
+
+    @keyframes btnfadein {
+        0%{
+        opacity:0;
+        scale:0.8;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.btn-fade-in{
+    animation: btnfadein 0.3s ease-out forwards;
+}
+
+.test-list-btn-teacher {
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    transition: 0.07s all ease-in-out;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 0px transparent);
+    opacity: 0;
+}
+
+.test-list-btn-teacher-l1 {
+    background-color: #0081d7;
+    color: white;
+    border: 2px #005893 solid;
+}
+    .test-list-btn-teacher-l1:hover {
+        transition: 0.07s all ease-in-out;
+        background-color: #35a4ee;
+        color: white;
+        transform: scale(1.04);
+        filter: drop-shadow(4px 4px 7px rgba(0,0,0,0.4));
+    }
+
+.test-list-btn-teacher-l2 {
+    background-color: #8000ff;
+    color: white;
+    border: 2px #5a00b4 solid;
+}
+
+    .test-list-btn-teacher-l2:hover {
+        transition: 0.07s all ease-in-out;
+        background-color: #af5fff;
+        color: white;
+        transform: scale(1.04);
+        filter: drop-shadow(4px 4px 7px rgba(0,0,0,0.4));
+    }
+
+.test-list-btn-teacher-l3 {
+    background-color: #c70061;
+    color: white;
+    border: 2px #8b0044 solid;
+}
+
+    .test-list-btn-teacher-l3:hover {
+        transition: 0.07s all ease-in-out;
+        background-color: #fa429b;
+        color: white;
+        transform: scale(1.04);
+        filter: drop-shadow(4px 4px 7px rgba(0,0,0,0.4));
+    }
+
+.test-list-btn {
+    display: inline-grid;
+    align-content:center;
+    text-align:center;
+    font-size: 15px;
+    width: 100%;
+    height: 70px;
+    background-color: #d80063;
+    color: white;
+    transition: 0.07s all ease-in-out;
+    border: 3px rgb(163, 0, 57) solid;
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 0px transparent);
+    opacity:0;
+}
+    .test-list-btn:hover {
+        transition: 0.07s all ease-in-out;
+        background-color: #ff007d;
+        color: white;
+        transform: scale(1.07);
+        filter: drop-shadow(4px 4px 7px rgba(0,0,0,0.4));
+    }
+
+.test-list-btn-done {
+    background-color: #3b7dce;
+    border: 3px #275893 solid;
+    color: white;
+}
+    .test-list-btn-done:hover {
+        background-color: #27a9ff;
+        color: white;
+    }
+
+.s-btn {
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 0px none;
+    z-index:4;
+    margin-top:-3px;
+    border-radius:5px;
+    transition: all 0.2s ease-out;
+}
+
+.s-btn-1{
+}
+
+    .s-btn-1:hover{
+        background-color:white;
+        color:rgb(199,0,84);
+        transform: translateY(7px);
+    }
+
+.s-btn-2 {
+}
+
+    .s-btn-2:hover {
+        background-color: white;
+        color: rgb(0,50,200);
+        transform: translateY(7px);
+    }
+
+.s-btn-3 {
+}
+
+    .s-btn-3:hover {
+        background-color: white;
+        color: rgb(0,160,45);
+        transform: translateY(7px);
+    }
+
+.scard {
+    position:relative;
+    width: 100%;
+    border-radius: 10px;
+    min-width:300px;
+    border: 2px solid #bbbbbb;
+    overflow:hidden;
+}
+
+.scard-mb {
+    margin-bottom:20px;
+}
+
+.scard-ftr {
+    height: 100px;
+    pointer-events: none
+}
+
+.scard-ftr-level {
+    background: rgb(8,0,145);
+    background: linear-gradient(180deg, rgba(8,0,145,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.scard-ftr-begin {
+    background: rgb(238,87,0);
+    background: linear-gradient(180deg, rgba(238,87,0,1) 0%, rgba(255,209,0,1) 100%);
+}
+
+.scard-ftr-end {
+    background: rgb(199,0,84);
+    background: linear-gradient(180deg, rgba(199,0,84,1) 0%, rgba(255,0,78,1) 100%);
+}
+.scard-ftr-cup {
+    background: #db6600;
+    background: linear-gradient(0deg, rgba(219, 102, 0, 1) 0%, rgba(237, 166, 0, 1) 50%, rgba(235, 78, 0, 1) 100%);
+}
+
+.scard-ftr-header {
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    top: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    z-index: 3
+}
+
+.scard-ftr-subheader {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4)
+}
+
+.scard-f1 {
+    font-size: 15px;
+}
+
+.scard-f2 {
+    font-size: 30px;
+}
+
+.scard-f3 {
+    font-size: 45px;
+}
+
+.scard-stt-header {
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    top: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4)
+}
+.scard-stt-subheader {
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 40px;
+    color: white;
+    width:70%;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4)
+}
+
+.scard-stt-header-dark {
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    top: 5px;
+    color: #5f5f5f;
+}
+
+.scard-stt {
+    height: 400px;
+}
+
+.scard-stt-2 {
+    height: 190px;
+}
+
+.scard-stt-space{
+    background:url(/images/planets/samanyolu.jpg);
+    background-size:cover;
+    background-color:black;
+}
+
+.scard-stt-space-btn {
+    position:absolute;
+    bottom:5px;
+    width:250px;
+    left:50%;
+    transform: translate(-200px);
+}
+
+.scard-stt-lessons {
+    color:black;
+    background-color:white;
+    border: 1px solid #b4b4b4
+}
+
+.scard-pd {
+    transition: all ease-in-out 0.5s;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background:url(/images/Planets/detail.jpg);
+    background-size:cover;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    left:-10px;
+}
+
+.scard-reading {
+    transition: all ease-in-out 0.5s;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: url(/images/Planets/detail.jpg);
+    background-size: cover;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    left: -10px;
+}
+
+.scard-pd-planet {
+    position: absolute;
+    top: 30px;
+    left: -170px;
+    scale:1.05;
+}
+
+.scard-pd-header {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 40px
+}
+
+.scard-pd-backbtn {
+    width: 200px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    font-size:20px;
+}
+
+.scard-pd-subheader {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    color: white;
+    font-size: 19px;
+    width: 250px;
+    text-align: end;
+    text-shadow:0px 0px 4px black;
+
+}
+
+.scard-book-form {
+    position: absolute;
+    top: 110px;
+    right: 60px;
+    color: white;
+    font-size: 19px;
+    width: 300px;
+    text-align: center;
+    text-shadow: 0px 0px 4px black;
+}
+
+.scard-book-header {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.planet {
+    cursor: pointer;
+}
+
+.planet-2 {
+    cursor: pointer;
+}
+
+@keyframes planetanim {
+    0% {
+        scale: 1;
+        filter: brightness(1) blur(0px)
+    }
+
+    20% {
+        scale: 2;
+        filter: brightness(4) blur(1px) sepia(1)
+    }
+
+    100% {
+        scale: 1;
+        filter: brightness(1) blur(0px)
+    }
+}
+
+.planet-anim {
+    animation: planetanim normal forwards 1s ease-out;
+}
+
+.planet-closed {
+    pointer-events:none;
+}
+
+.scard-results {
+    height: 350px;
+    pointer-events: all;
+    background-color:white;
+}
+
+.scard-lesson-progress {
+    height: 150px;
+    pointer-events: all;
+    background: rgb(193,0,62);
+    background: linear-gradient(180deg, rgba(193,0,62,1) 0%, rgba(70,0,17,1) 77%, rgba(130,0,40,1) 100%);
+    color: white;
+}
+
+.card-sign {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius:10px;
+    box-shadow:rbga(0,0,0,0.7) 0px 0px 5px;
+    transition: 0.3s all ease-in-out;
+    opacity:0;
+    pointer-events:none;
+}
+.card-sign-show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.scard-results-header {
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.planet-h {
+    transition: all ease-in-out 0.2s;
+}
+    .planet-h:hover {
+        scale: 1.2;
+        cursor: pointer;
+    }
+
+.student-sign-button {
+    padding: 0px 10px 0px 10px;
+    height: 35px;
+    right: 0px;
+    top: 25px;
+    font-size: 20px;
+    color: white;
+    margin-top: 18px;
+    background-color: transparent;
+    border: 0px none;
+    border-radius: 8px;
+    transition: all ease-in-out 0.2s;
+}
+    .student-sign-button:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+
+.cup{
+    transform-origin:bottom;
+    transition: 0.2s all ease-in-out;
+    cursor:pointer;
+}
+.cup:hover{
+    scale:1.05;
+    filter:brightness(1.3);
+}
+
+.card-excersize-menu{
+    position:relative;
+    background:white;
+    min-height:100px;
+    z-index:500;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    border-radius:10px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+    padding:20px;
+    pointer-events:none;
+    opacity:0;
+    transition:0.2s all ease-out;
+}
+
+.card-excersize-menu-show {
+    opacity: 1;
+    pointer-events: all;
+    margin-top: 10px;
+}
+
+.card-excersize-header {
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.card-excersize-btn {
+    width:100%;
+    background-color:transparent;
+    border:0px solid;
+    text-align:start;
+    transition:all 0.3s ease-out;
+    font-size:16px;
+}
+    .card-excersize-btn:hover {
+        transform:translateX(7px);
+        color:mediumseagreen;
+        font-weight:900;
+    }
+
+.scard-bd {
+    transition: all ease-in-out 0.5s;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    left: -10px;
+    background: #1b2161;
+    background: linear-gradient(0deg,rgba(27, 33, 97, 1) 0%, rgba(18, 105, 176, 1) 50%, rgba(20, 29, 112, 1) 100%);
+}
+
+.scard-bd-badge {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    scale: 1.05;
+}
+
+.scard-bd-cup {
+    position: absolute;
+    top: 30px;
+    left: -80px;
+    scale: 1.05;
+}
+
+.scard-bd-subheader {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    color: white;
+    font-size: 19px;
+    width: 250px;
+    text-align: end;
+    text-shadow: 0px 0px 4px black;
+}
+
+.scard-bd-header {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 0px 4px black;
+}
+
+.scard-show {
+    opacity: 1;
+    left: 0px;
+    pointer-events: all;
+}
+
+.card-test-menu {
+    position: relative;
+    background: white;
+    min-height: 100px;
+    width:400px;
+    z-index: 500;
+    margin-left: auto;
+    margin-right: auto;
+    transform:translateX(350px);
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s all ease-out;
+}
+
+.card-excersize-menu {
+    position: relative;
+    background: white;
+    min-height: 100px;
+    z-index: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s all ease-out;
+}
+
+.card-show {
+    opacity: 1;
+    pointer-events: all;
+    margin-top: 10px;
+}

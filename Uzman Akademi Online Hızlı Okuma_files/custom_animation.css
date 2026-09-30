@@ -1,0 +1,66 @@
+@keyframes slideInFromLeft{
+    0% {
+        opacity: 0;
+        transform : translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform : translateX(0px);
+    }
+}
+
+@keyframes slideInFromTop{
+    0% {
+        opacity: 0;
+        transform : translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform : translateY(0px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes itemSlide {
+    0% {
+        transform : translateX(0px);
+    }
+    100%{
+        transform : translateX(10px);
+    }
+}
+
+.slide-in-left{
+    animation: 0.7s ease-out 0s 1 slideInFromLeft;
+}
+
+.slide-in-top{
+    animation: 0.5s ease-out 0s 1 slideInFromTop;
+    animation-fill-mode: forwards;
+}
+
+.fade-in{
+    animation: 1s ease-out 0s 1 fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.item-animation:hover{
+    animation: 0.3s ease-out 0s 1 itemSlide;
+    animation-fill-mode: forwards;
+}
+
+.fontsize-2{
+    font-size: 15px;
+}
+
+.rounded-sm{
+    border-radius: 10px;
+}
